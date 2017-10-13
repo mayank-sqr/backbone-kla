@@ -1,6 +1,6 @@
 # BackBone KLA
 
-# Description
+### Description
 This project is based on backbonejs framework. Its a learning purpose project. This project tells us workflow of backbone and how to interact with Models, Collections and View and also with use of template engine like Handlebars.
 
 ### Usage

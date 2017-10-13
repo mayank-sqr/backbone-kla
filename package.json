@@ -1,0 +1,24 @@
+{
+	"name": "backbone-kla",
+	"version": "1.0.0",
+	"description": "Create a Sample Backbone Project to understand backbone workflow.",
+	"private": true,
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "mayank@opencentral.com",
+	"license": "BSD-2-Clause",
+	"devDependencies": {
+		"grunt": "^1.0.1",
+		"grunt-cli": "^1.2.0",
+		"grunt-concat-css": "^0.3.2",
+		"grunt-contrib-concat": "^1.0.1",
+		"grunt-contrib-handlebars": "^1.0.0",
+		"grunt-contrib-less": "^1.4.1",
+		"grunt-contrib-watch": "^1.0.0"
+	},
+	"dependencies": {
+		"handlebars": "^4.0.10"
+	}
+}

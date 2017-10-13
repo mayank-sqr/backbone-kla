@@ -1,0 +1,23 @@
+<!--{{log posts}} -->
+<ul class="library-ul">
+{{#each posts}}
+<li class="grid_post">
+<a data-postid="{{id}}" href="/{{this.slug}}">
+	<div class="library-featured-image-and-video">
+		<img class="img-responsive" src="{{better_featured_image.source_url}}">
+	</div>
+	<div class="library-featured-content">
+		<h6 style="color:#40acfc">{{categories}}</h6>
+		<h5>{{{title.rendered}}}</h5>
+	<div class="improving-content">
+		<p>{{id}}<span style="background:#50af5b"></span></p>
+	</div>
+	</div>
+	<div class="tiles-overlay-content" style="background:#40acfc">
+		<p>{{{content.rendered}}}</p>
+	</div>
+</a>
+</li>
+{{/each}}
+</ul>
+	
